@@ -36,7 +36,7 @@
 ```
 yarn install
 ```
-2.运行代码
+2.运行查看打包文件
 ```
 yarn run build
 ```
