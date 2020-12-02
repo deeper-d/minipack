@@ -176,7 +176,7 @@ const bundleTemplate = (module) => {
 }
 
 // 4.写入
-const writeBundle = (bundle, file) => {
+const writeBundle = (file, bundle) => {
     fs.writeFileSync(file, bundle)
 }
 
@@ -193,7 +193,7 @@ const bundle = (entry, config) => {
     // 写入文件
     // let file = 'dist/bundle.js'
     let file = path.join(config.output.directory, config.output.filename)
-    writeBundle(bundle, file)
+    writeBundle(file, bundle)
 }
 
 module.exports = bundle
