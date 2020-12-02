@@ -33,8 +33,10 @@
 >> README.md
 
 1.安装依赖包
-```$xslt
+```
 yarn install
 ```
 2.运行代码
-```yarn run build```
+```
+yarn run build
+```
