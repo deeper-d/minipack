@@ -47,4 +47,3 @@ yarn run build
 * 使用 babel/parser 将源码转成 AST
 * 使用 babel/traverse 遍历 AST，找到需要处理的节点进行操作
 * 在 webpack 打包时用 IIFE 的方法处理模块，生成 bundle.js
-[;.;./]
