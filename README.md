@@ -1,5 +1,5 @@
 # minipack
-实现 webpack 的核心打包功能
+实现 webpack 的核心打包功能, 打包代码生成 bundle.js
 
 > minipack
 >> dist
