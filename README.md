@@ -1,36 +1,33 @@
 # minipack
 实现 webpack 的核心打包功能, 打包代码生成 bundle.js
-
-> minipack
->> dist
->>> bundle.js
->
->> static
->>> css
->>>> a.css
->>>
->>>js
->>>> helper
->>>>> log.js
->>>>>
->>>>> select.js
->>>>
->>>> lib
->>>>> minipack.js
->>>>>
->>>>> utils.js
->>>>
->>>>a.js
->
->> a.html
->
->> index.js
->
->> minipack.config.js
->
->> package.json
->
->> README.md
+```$xslt
+minipack
+│  .gitignore
+│  a.html
+│  index.js
+│  minipack.config.js
+│  package.json
+│  README.md
+│  yarn.lock
+│  
+├─dist
+│      bundle.js
+│          
+└─static
+    ├─css
+    │      a.css
+    │      
+    └─js
+        │  a.js
+        │  
+        ├─helper
+        │      log.js
+        │      select.js
+        │      
+        └─lib
+                minipack.js
+                utils.js
+```
 
 1.安装依赖包
 ```
